@@ -1,0 +1,6 @@
+﻿  lr_1.cpp
+Z:\OSISP\lr_1\lr_1\lr_1.cpp(283,8): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+Z:\OSISP\lr_1\lr_1\lr_1.cpp(284,8): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+Z:\OSISP\lr_1\lr_1\lr_1.cpp(432,81): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+Z:\OSISP\lr_1\lr_1\lr_1.cpp(432,37): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  lr_1.vcxproj -> Z:\OSISP\lr_1\x64\Debug\lr_1.exe
