@@ -1,0 +1,11 @@
+﻿  pch.cpp
+  dllmain.cpp
+  DllQuadr.cpp
+Z:\OSISP\lr_3\N-angleDLL\DllQuadr\DllQuadr.cpp(15,6): warning C4273: 'draw': inconsistent dll linkage
+Z:\OSISP\lr_3\N-angleDLL\DllQuadr\DllQuadr.h(9,31): message : see previous definition of 'draw'
+Z:\OSISP\lr_3\N-angleDLL\DllQuadr\DllQuadr.cpp(21,22): warning C4305: 'initializing': truncation from 'double' to 'float'
+Z:\OSISP\lr_3\N-angleDLL\DllQuadr\DllQuadr.cpp(29,15): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+Z:\OSISP\lr_3\N-angleDLL\DllQuadr\DllQuadr.cpp(30,15): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+  Generating Code...
+     Creating library Z:\OSISP\lr_3\N-angleDLL\x64\Debug\DllQuadr.lib and object Z:\OSISP\lr_3\N-angleDLL\x64\Debug\DllQuadr.exp
+  DllQuadr.vcxproj -> Z:\OSISP\lr_3\N-angleDLL\x64\Debug\DllQuadr.dll

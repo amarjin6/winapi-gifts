@@ -1,0 +1,9 @@
+﻿  pch.cpp
+  dllmain.cpp
+  NangleDLL.cpp
+Z:\OSISP\lr_3\N-angleDLL\N-angleDLL\NangleDLL.cpp(20,25): warning C4305: 'initializing': truncation from 'double' to 'float'
+Z:\OSISP\lr_3\N-angleDLL\N-angleDLL\NangleDLL.cpp(28,15): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+Z:\OSISP\lr_3\N-angleDLL\N-angleDLL\NangleDLL.cpp(29,15): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+  Generating Code...
+     Creating library Z:\OSISP\lr_3\N-angleDLL\x64\Debug\N-angleDLL.lib and object Z:\OSISP\lr_3\N-angleDLL\x64\Debug\N-angleDLL.exp
+  N-angleDLL.vcxproj -> Z:\OSISP\lr_3\N-angleDLL\x64\Debug\N-angleDLL.dll
