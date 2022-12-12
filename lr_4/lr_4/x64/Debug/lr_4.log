@@ -1,0 +1,48 @@
+﻿  lr_4.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+Z:\OSISP\lr_4\lr_4\lr_4.cpp(67,22): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+Z:\OSISP\lr_4\lr_4\lr_4.cpp(67,34): error C2039: 'directory_iterator': is not a member of 'std'
+E:\Visual Studio IDE\VC\Tools\MSVC\14.33.31629\include\string(24): message : see declaration of 'std'
+Z:\OSISP\lr_4\lr_4\lr_4.cpp(67,52): error C3861: 'directory_iterator': identifier not found
+Z:\OSISP\lr_4\lr_4\lr_4.cpp(71,24): error C2672: 'begin': no matching overloaded function found
+E:\Visual Studio IDE\VC\Tools\MSVC\14.33.31629\include\xutility(1937,27): message : could be '_Ty *std::begin(_Ty (&)[_Size]) noexcept'
+Z:\OSISP\lr_4\lr_4\lr_4.cpp(71,24): message : '_Ty *std::begin(_Ty (&)[_Size]) noexcept': could not deduce template argument for '_Ty (&)[_Size]' from 'unknown-type'
+E:\Visual Studio IDE\VC\Tools\MSVC\14.33.31629\include\xutility(1937): message : see declaration of 'std::begin'
+E:\Visual Studio IDE\VC\Tools\MSVC\14.33.31629\include\xutility(1922,30): message : or       'unknown-type std::begin(const _Container &)'
+Z:\OSISP\lr_4\lr_4\lr_4.cpp(71,24): message : Failed to specialize function template 'unknown-type std::begin(const _Container &)'
+E:\Visual Studio IDE\VC\Tools\MSVC\14.33.31629\include\xutility(1922): message : see declaration of 'std::begin'
+Z:\OSISP\lr_4\lr_4\lr_4.cpp(73,5): message : With the following template arguments:
+Z:\OSISP\lr_4\lr_4\lr_4.cpp(73,5): message : '_Container=unknown-type'
+E:\Visual Studio IDE\VC\Tools\MSVC\14.33.31629\include\xutility(1917,30): message : or       'unknown-type std::begin(_Container &)'
+Z:\OSISP\lr_4\lr_4\lr_4.cpp(71,24): message : Failed to specialize function template 'unknown-type std::begin(_Container &)'
+E:\Visual Studio IDE\VC\Tools\MSVC\14.33.31629\include\xutility(1917): message : see declaration of 'std::begin'
+Z:\OSISP\lr_4\lr_4\lr_4.cpp(73,5): message : With the following template arguments:
+Z:\OSISP\lr_4\lr_4\lr_4.cpp(73,5): message : '_Container=unknown-type'
+E:\Visual Studio IDE\VC\Tools\MSVC\14.33.31629\include\initializer_list(55,35): message : or       'const _Elem *std::begin(std::initializer_list<_Elem>) noexcept'
+Z:\OSISP\lr_4\lr_4\lr_4.cpp(71,24): message : 'const _Elem *std::begin(std::initializer_list<_Elem>) noexcept': could not deduce template argument for 'std::initializer_list<_Elem>' from 'unknown-type'
+E:\Visual Studio IDE\VC\Tools\MSVC\14.33.31629\include\initializer_list(55): message : see declaration of 'std::begin'
+Z:\OSISP\lr_4\lr_4\lr_4.cpp(71,24): message : 'const _Elem *std::begin(std::initializer_list<_Elem>) noexcept': could not deduce template argument for 'std::initializer_list<_Elem>' from 'unknown-type'
+E:\Visual Studio IDE\VC\Tools\MSVC\14.33.31629\include\initializer_list(55): message : see declaration of 'std::begin'
+Z:\OSISP\lr_4\lr_4\lr_4.cpp(71,24): error C2672: 'end': no matching overloaded function found
+E:\Visual Studio IDE\VC\Tools\MSVC\14.33.31629\include\xutility(1942,27): message : could be '_Ty *std::end(_Ty (&)[_Size]) noexcept'
+Z:\OSISP\lr_4\lr_4\lr_4.cpp(71,24): message : '_Ty *std::end(_Ty (&)[_Size]) noexcept': could not deduce template argument for '_Ty (&)[_Size]' from 'unknown-type'
+E:\Visual Studio IDE\VC\Tools\MSVC\14.33.31629\include\xutility(1942): message : see declaration of 'std::end'
+E:\Visual Studio IDE\VC\Tools\MSVC\14.33.31629\include\xutility(1932,30): message : or       'unknown-type std::end(const _Container &)'
+Z:\OSISP\lr_4\lr_4\lr_4.cpp(71,24): message : Failed to specialize function template 'unknown-type std::end(const _Container &)'
+E:\Visual Studio IDE\VC\Tools\MSVC\14.33.31629\include\xutility(1932): message : see declaration of 'std::end'
+Z:\OSISP\lr_4\lr_4\lr_4.cpp(73,5): message : With the following template arguments:
+Z:\OSISP\lr_4\lr_4\lr_4.cpp(73,5): message : '_Container=unknown-type'
+E:\Visual Studio IDE\VC\Tools\MSVC\14.33.31629\include\xutility(1927,30): message : or       'unknown-type std::end(_Container &)'
+Z:\OSISP\lr_4\lr_4\lr_4.cpp(71,24): message : Failed to specialize function template 'unknown-type std::end(_Container &)'
+E:\Visual Studio IDE\VC\Tools\MSVC\14.33.31629\include\xutility(1927): message : see declaration of 'std::end'
+Z:\OSISP\lr_4\lr_4\lr_4.cpp(73,5): message : With the following template arguments:
+Z:\OSISP\lr_4\lr_4\lr_4.cpp(73,5): message : '_Container=unknown-type'
+E:\Visual Studio IDE\VC\Tools\MSVC\14.33.31629\include\initializer_list(60,35): message : or       'const _Elem *std::end(std::initializer_list<_Elem>) noexcept'
+Z:\OSISP\lr_4\lr_4\lr_4.cpp(71,24): message : 'const _Elem *std::end(std::initializer_list<_Elem>) noexcept': could not deduce template argument for 'std::initializer_list<_Elem>' from 'unknown-type'
+E:\Visual Studio IDE\VC\Tools\MSVC\14.33.31629\include\initializer_list(60): message : see declaration of 'std::end'
+Z:\OSISP\lr_4\lr_4\lr_4.cpp(71,24): message : 'const _Elem *std::end(std::initializer_list<_Elem>) noexcept': could not deduce template argument for 'std::initializer_list<_Elem>' from 'unknown-type'
+E:\Visual Studio IDE\VC\Tools\MSVC\14.33.31629\include\initializer_list(60): message : see declaration of 'std::end'
+Z:\OSISP\lr_4\lr_4\lr_4.cpp(73,5): error C3536: '<begin>$L0': cannot be used before it is initialized
+Z:\OSISP\lr_4\lr_4\lr_4.cpp(73,5): error C3536: '<end>$L0': cannot be used before it is initialized
+Z:\OSISP\lr_4\lr_4\lr_4.cpp(71,28): error C2100: illegal indirection
+Z:\OSISP\lr_4\lr_4\lr_4.cpp(147,67): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
